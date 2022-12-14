@@ -1,0 +1,86 @@
+-x
+c++
+-c
+-Wall
+-Wextra
+-std=c++17
+-Wformat=2
+-pedantic
+-Wno-psabi
+-Wno-unused-parameter
+-Wno-error=deprecated-declarations
+-fPIC
+-rdynamic
+-pthread
+-O2
+-nostdinc
+-I
+C:\\code\\team587\\SwerveDriveAlpha\\src\\main\\include
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\cf6b057ce69e72f784efd53063d93c88\\transformed\\wpilibNewCommands-cpp-2022.4.1-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\098065f9e053efd410ac4bfcc3ebab16\\transformed\\PathplannerLib-cpp-2022.1.0-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\77253425b2941e5136bca74371eacc16\\transformed\\REVLib-cpp-2022.1.1-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\c3199ccacd8b3e26894c7036c8c9095c\\transformed\\REVLib-driver-2022.1.1-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\1f3927427fca76a53ee6ba860540202f\\transformed\\PhotonLib-cpp-v2022.1.4-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\ea6ecf9ba6b6c08db66e4ca45c5a589c\\transformed\\wpiapi-cpp-5.20.2-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\3877449b73df5341b534008f3b4f06b2\\transformed\\api-cpp-5.20.2-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\60e8c3739c23405550c1f74eeede11d1\\transformed\\cci-5.20.2-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\7dca2604528c24a832bf3369a320ec03\\transformed\\wpiapi-cpp-sim-5.20.2-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\2f8925ea00239a342109678823cebce8\\transformed\\api-cpp-sim-5.20.2-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\fa98250cb07504632b2a094512d4f0a3\\transformed\\cci-sim-5.20.2-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\946e7eeae797359fa39fb54e950c970a\\transformed\\simTalonSRX-5.20.2-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\9b55db0eb86237ff5dee3e35b87f18d6\\transformed\\simTalonFX-5.20.2-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\03454c5917ddff0a749b5ffb03694e5d\\transformed\\simVictorSPX-5.20.2-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\e515a1b681bd17f94b0e9e5eaa70518c\\transformed\\simPigeonIMU-5.20.2-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\22725cd54750e4bd4854a8fd7083daeb\\transformed\\simCANCoder-5.20.2-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\5a411d64bffc455e36b24fcb0480c977\\transformed\\navx-cpp-4.0.442-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\83a53c18c19df5f914abde33ca4309b0\\transformed\\wpilibc-cpp-2022.4.1-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\0633eddf9cc29c97c240246ad007ab86\\transformed\\ntcore-cpp-2022.4.1-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\013c4d97f722563b8a8f300b5d6fcf5c\\transformed\\hal-cpp-2022.4.1-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\07ed64aa1074398a5cd82f3b682532eb\\transformed\\wpimath-cpp-2022.4.1-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\ccada9075d3b8dcc0d173eb790a55986\\transformed\\wpiutil-cpp-2022.4.1-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\d20970ca6067656e8d18591c65c1c758\\transformed\\netcomm-2022.4.0-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\beb5aec5694b7daa19e896d7e4d40300\\transformed\\chipobject-2022.4.0-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\011dbd21fb3a73c85c9085af8a9b8327\\transformed\\visa-2022.4.0-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\4b2c15168f64d35a1b579495a5014e1e\\transformed\\cameraserver-cpp-2022.4.1-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\7b53244be03bb0b4044131ce076c8f9c\\transformed\\cscore-cpp-2022.4.1-headers"
+-I
+"C:\\Users\\TEAM 587\\.gradle\\caches\\transforms-3\\30bea9114bf75f91d18347a8be921f2a\\transformed\\opencv-cpp-4.5.2-1-headers"
+-isystem
+C:\\Users\\Public\\wpilib\\2022\\roborio\\arm-frc2022-linux-gnueabi\\usr\\lib\\gcc\\arm-frc2022-linux-gnueabi\\7.3.0\\include
+-isystem
+C:\\Users\\Public\\wpilib\\2022\\roborio\\arm-frc2022-linux-gnueabi\\usr\\lib\\gcc\\arm-frc2022-linux-gnueabi\\7.3.0\\include-fixed
+-isystem
+C:\\Users\\Public\\wpilib\\2022\\roborio\\arm-frc2022-linux-gnueabi\\usr\\include\\c++\\7.3.0
+-isystem
+C:\\Users\\Public\\wpilib\\2022\\roborio\\arm-frc2022-linux-gnueabi\\usr\\include\\c++\\7.3.0\\arm-frc2022-linux-gnueabi
+-isystem
+C:\\Users\\Public\\wpilib\\2022\\roborio\\arm-frc2022-linux-gnueabi\\usr\\include\\c++\\7.3.0\\backward
+-isystem
+C:\\Users\\Public\\wpilib\\2022\\roborio\\arm-frc2022-linux-gnueabi\\usr\\include
